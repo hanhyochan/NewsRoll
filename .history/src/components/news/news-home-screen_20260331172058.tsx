@@ -43,7 +43,7 @@ function StatusBar() {
 
 function Header() {
     return (
-        <header className="px-4 pb-10 pt-3 text-white">
+        <header className="px-[50px] pb-10 pt-3 text-white">
             <div className="flex items-center justify-end gap-4">
                 <AppLogo />
                 <span className="h-2 w-2 rounded-full bg-[#FF9B26]" />
@@ -281,7 +281,6 @@ function BottomNav() {
 export function NewsHomeScreen() {
     return (
         <div className="relative min-h-screen bg-[var(--brand-deep)]">
-            <StatusBar />
             <Header />
             <SearchFab />
             <section className="rounded-t-[20px] bg-[#f6f3fb] px-4 pb-6 pt-12 shadow-[0_-8px_30px_rgba(9,2,35,0.18)]">

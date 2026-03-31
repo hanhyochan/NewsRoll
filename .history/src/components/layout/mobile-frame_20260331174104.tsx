@@ -6,7 +6,7 @@ type MobileFrameProps = {
 
 export function MobileFrame({ children }: MobileFrameProps) {
     return (
-        <main className="mx-auto min-h-screen w-full max-w-[420px] bg-[var(--brand-deep)] shadow-[var(--shadow-card)]">
+        <main className="mx-auto min-h-screen w-full max-w-[320px] bg-[var(--brand-deep)] shadow-[var(--shadow-card)]">
             {children}
         </main>
     );

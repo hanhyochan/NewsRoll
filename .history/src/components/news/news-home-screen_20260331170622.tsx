@@ -43,7 +43,7 @@ function StatusBar() {
 
 function Header() {
     return (
-        <header className="px-4 pb-10 pt-3 text-white">
+        <header className="px-[20px] pb-[24px] pt-[64px] text-white">
             <div className="flex items-center justify-end gap-4">
                 <AppLogo />
                 <span className="h-2 w-2 rounded-full bg-[#FF9B26]" />

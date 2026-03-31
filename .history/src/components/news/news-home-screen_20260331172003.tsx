@@ -43,51 +43,51 @@ function StatusBar() {
 
 function Header() {
     return (
-        <header className="px-4 pb-10 pt-3 text-white">
-            <div className="flex items-center justify-end gap-4">
-                <AppLogo />
-                <span className="h-2 w-2 rounded-full bg-[#FF9B26]" />
-                <button
-                    type="button"
-                    aria-label="??"
-                    className="grid h-14 w-14 place-items-center rounded-full bg-[var(--brand-accent)] shadow-[0_10px_24px_rgba(255,125,115,0.35)]"
-                >
-                    <BellIcon />
-                </button>
-            </div>
+        // <header className="px-[20px] pb-10 pt-3 text-white">
+        //     <div className="flex items-center justify-end gap-4">
+        //         <AppLogo />
+        //         <span className="h-2 w-2 rounded-full bg-[#FF9B26]" />
+        //         <button
+        //             type="button"
+        //             aria-label="??"
+        //             className="grid h-14 w-14 place-items-center rounded-full bg-[var(--brand-accent)] shadow-[0_10px_24px_rgba(255,125,115,0.35)]"
+        //         >
+        //             <BellIcon />
+        //         </button>
+        //     </div>
 
-            <div className="mt-10 space-y-6">
-                <p className="text-[18px] leading-6 tracking-[-0.3px]">
-                    ????? <span className="font-bold">???</span>?!
-                </p>
+        //     <div className="mt-10 space-y-6">
+        //         <p className="text-[18px] leading-6 tracking-[-0.3px]">
+        //             ????? <span className="font-bold">???</span>?!
+        //         </p>
 
-                <div className="space-y-1">
-                    <p className="text-[44px] font-medium leading-9 tracking-[-0.06em] text-[var(--brand-soft)]">
-                        11,343<span className="ml-1 text-2xl font-normal text-white">?</span>
-                    </p>
-                    <p className="text-4xl leading-9 tracking-[-0.03em] text-white">
-                        ??? ??? ????.
-                    </p>
-                </div>
+        //         <div className="space-y-1">
+        //             <p className="text-[44px] font-medium leading-9 tracking-[-0.06em] text-[var(--brand-soft)]">
+        //                 11,343<span className="ml-1 text-2xl font-normal text-white">?</span>
+        //             </p>
+        //             <p className="text-4xl leading-9 tracking-[-0.03em] text-white">
+        //                 ??? ??? ????.
+        //             </p>
+        //         </div>
 
-                <div className="inline-flex rounded-full bg-white/20 p-1 backdrop-blur-sm">
-                    <button
-                        type="button"
-                        className="grid h-10 w-10 place-items-center rounded-full bg-white text-[var(--brand-deep)]"
-                        aria-label="?? ??"
-                    >
-                        <ListIcon />
-                    </button>
-                    <button
-                        type="button"
-                        className="grid h-10 w-10 place-items-center rounded-full text-white"
-                        aria-label="??? ??"
-                    >
-                        <GridIcon />
-                    </button>
-                </div>
-            </div>
-        </header>
+        //         <div className="inline-flex rounded-full bg-white/20 p-1 backdrop-blur-sm">
+        //             <button
+        //                 type="button"
+        //                 className="grid h-10 w-10 place-items-center rounded-full bg-white text-[var(--brand-deep)]"
+        //                 aria-label="?? ??"
+        //             >
+        //                 <ListIcon />
+        //             </button>
+        //             <button
+        //                 type="button"
+        //                 className="grid h-10 w-10 place-items-center rounded-full text-white"
+        //                 aria-label="??? ??"
+        //             >
+        //                 <GridIcon />
+        //             </button>
+        //         </div>
+        //     </div>
+        // </header>
     );
 }
 
@@ -281,7 +281,6 @@ function BottomNav() {
 export function NewsHomeScreen() {
     return (
         <div className="relative min-h-screen bg-[var(--brand-deep)]">
-            <StatusBar />
             <Header />
             <SearchFab />
             <section className="rounded-t-[20px] bg-[#f6f3fb] px-4 pb-6 pt-12 shadow-[0_-8px_30px_rgba(9,2,35,0.18)]">
