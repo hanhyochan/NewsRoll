@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "set \"__NEXT_PRIVATE_RENDER_WORKER=1\" && storybook dev -p 6006",
+    "build-storybook": "set \"__NEXT_PRIVATE_RENDER_WORKER=1\" && storybook build"
   },
   "dependencies": {
     "next": "14.2.26",
